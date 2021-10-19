@@ -7,12 +7,9 @@ if m == 1:
     m = 13
 if m == 2:
     m = 14
-else:
-    m = m
-if m == 13:
+if m == 13 or 14:
     y -= 1
-if m == 14:
-    y -= 1
+
 j = int(y / 100)
 k = int(y % 100)
 
@@ -35,10 +32,9 @@ elif h == 6:
 
 if m == 13:
     m = 1
-if m == 14:
+elif m == 14:
     m = 2
-else:
-    m = m
+
 if m == 1:
     y += 1
 if m == 2:
